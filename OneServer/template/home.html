@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>SW EM Team</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,  initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-info navbar-dark">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="/">Home</a>
+        </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/dict">KeyWord</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/data">DataCenter</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item" id="log_out_link" style="display: none;">
+            <a class="nav-link"><i class="fas fa-sign-out-alt"></i>LogOut</a>
+        </li>
+        <li class="nav-item" id="log_in_link">
+            <a class="nav-link" href="/login"><i class="fa fa-user"></i> LogIn</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/register"> <i class="fas fa-user-plus"></i> SignUp</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="root"></div>
+    <script src="/static/js/home.js"></script>
+  </body>
+</html>
